@@ -1,0 +1,1 @@
+throwingDice = t = n => `${n > 1 ? 2*t(n-1) - t(n-7) : n < 0 ^ 1}`
